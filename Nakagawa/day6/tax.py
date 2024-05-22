@@ -11,8 +11,8 @@ price_up = dis - 1500
 
 #追加料金
 if dis >= 1500:
-    #344m毎の計算
+    #344m毎の計算...(A + B -1) // B：A/Bした値の繰り上げ
     price += 98 * ((price_up + 344 - 1) // 344)
-    
+
 #出力
 print(price, end = "")
