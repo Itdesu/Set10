@@ -6,6 +6,6 @@ num=int(num)
 if num<0:
     absolute=0-num
 else:
-    absolute=num
+    absolulte=num
 
-print(str(num)+" "+str(absolute),end="")
+print(num,absolute,end="")
