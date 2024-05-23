@@ -2,7 +2,7 @@ import sys
 from database import session
 from tables import Stations
 
-args = sys.argv
+args = sys.arg
 #引数を変数に代入
 st_start = args[1]
 st_last = args[2]
