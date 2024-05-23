@@ -1,0 +1,2 @@
+# 振り返り(Excel)
+[Python_6-7日目スケジュール表_B6接点](https://mynavisys.sharepoint.com/:x:/r/sites/order4091/_layouts/15/Doc.aspx?sourcedoc=%7BAF3C2147-8280-4FB8-B019-BD609658A92E%7D&file=Python_6-7%E6%97%A5%E7%9B%AE%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E8%A1%A8_%E6%8E%A5%E7%82%B9.xlsx&action=default&mobileredirect=true)
