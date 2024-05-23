@@ -7,13 +7,16 @@ qr = qrcode.QRCode(
     border=4,
 )
 
+file_name = 'qrlist.txt'
 
-with open("qrlist.txt","r") as f:
+# read text file()
+with open(file_name,"r") as f:
+    # get lines
     qr_links = f.readlines()
+    # create qr-codes
     for i, qr_link in enumerate(qr_links):
+        # restrip "\n"
         qr_link = qr_link.rstrip("\n")
-        # print(qr_link)
-    
+        # create qr-code.img    
         img = qrcode.make(qr_link)
-
         img.save('output/'+str(i + 1) + '.png')
